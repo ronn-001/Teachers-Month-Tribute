@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Happy Teachers Day</title>
+
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <input type="checkbox" id="open-envelope">
+  <input type="checkbox" id="show-surprise">
+
+  <div class="decor" aria-hidden="true">
+    <span style="--x:6%;  --d:14s; --s:1.4rem; --delay:0s;  --c:#ff9fb2">♥</span>
+    <span style="--x:14%; --d:18s; --s:1rem;   --delay:3s;  --c:#f5c76b">✦</span>
+    <span style="--x:22%; --d:16s; --s:1.6rem; --delay:7s;  --c:#8fbf88">✿</span>
+    <span style="--x:31%; --d:20s; --s:1.1rem; --delay:1s;  --c:#ffb3c1">♥</span>
+    <span style="--x:40%; --d:15s; --s:1.3rem; --delay:9s;  --c:#f5c76b">✦</span>
+    <span style="--x:49%; --d:19s; --s:1.5rem; --delay:4s;  --c:#8fbf88">✿</span>
+    <span style="--x:58%; --d:17s; --s:1.2rem; --delay:11s; --c:#ff9fb2">♥</span>
+    <span style="--x:66%; --d:21s; --s:1rem;   --delay:2s;  --c:#f5c76b">✦</span>
+    <span style="--x:74%; --d:14s; --s:1.6rem; --delay:6s;  --c:#8fbf88">✿</span>
+    <span style="--x:82%; --d:18s; --s:1.3rem; --delay:10s; --c:#ffb3c1">♥</span>
+    <span style="--x:90%; --d:16s; --s:1.1rem; --delay:5s;  --c:#f5c76b">✦</span>
+    <span style="--x:96%; --d:20s; --s:1.4rem; --delay:8s;  --c:#8fbf88">✿</span>
+  </div>
+
+  <section class="step envelope-step">
+    <label for="open-envelope" class="envelope" title="Click to open">
+      <img class="envelope-img" src="img/Envelope Logo.png" alt="Envelope">
+    </label>
+    <p class="hint">tap the envelope</p>
+  </section>
+
+  <section class="step greeting-step">
+    <p class="eyebrow">Teachers Month Tribute</p>
+    <h1>Happy Teachers Month</h1>
+    <p class="divider">✿ &nbsp;✿ &nbsp;✿</p>
+    <label for="show-surprise" class="surprise-btn">Click me</label>
+  </section>
+
+  <section class="step card-step">
+    <article class="card">
+
+      <div class="photo-wrap">
+        <img class="photo" src="img/Flower.png" alt="Tribute photo">
+      </div>
+
+      <h2>Thank You, Teachers!</h2>
+
+      <p class="message">
+        Thank you for your patience, guidance,
+        and for believing in us even when we didn't believe in ourselves.
+      </p>
+      <p class="signature">— Your students</p>
+
+      <div class="song-box">
+        <p class="song-label">A song for you</p>
+        <audio class="song" controls>
+          <source src="song/Rex Orange County - AMAZING.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+
+    </article>
+  </section>
+
+</body>
+</html>
